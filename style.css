@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    background: beige;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: black;
+    background-color: lightblue;
+}
+
+.nav ul li:hover {
+    background: darkred;
+    font-weight: 600;
+}
